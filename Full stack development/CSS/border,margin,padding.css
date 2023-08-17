@@ -1,0 +1,38 @@
+	
+
+	#id1{
+			height: 4s00px;
+			width: 600px;
+			background-color: silver;
+			padding: 50px 50px;
+			box-sizing: border-box;
+		}
+	#id2{
+			height: 300px;
+			width: 500px;
+			background-color: orange;
+			padding: 50px 50px;
+			box-sizing: border-box;
+
+		}
+    #id3{
+			height: 200px;
+			width: 400px;
+			background-color: silver;
+			padding: 50px 50px;
+			box-sizing: border-box;
+        }
+    #id4    {
+        	height: 100px;
+			width: 300px;
+			background-color: skyblue;
+			padding: 50px 50px;
+			box-sizing: border-box;
+
+        }
+        *{
+        	margin: opx;
+        	border: 0px;
+        	box-sizing: border-box;
+        }
+/*        box-sizing: border-box is used to apply the padding space for the content within the border only it will not go to outside of the border*/

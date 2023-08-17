@@ -1,0 +1,19 @@
+.bg{
+	height: 600px;
+	width: 1250px;
+	background-image: url('bg_img1.jpg');
+	background-size: cover;
+}
+.bg2{
+	height: 600px;
+	width: 1250px;
+	background-image: url('bg_img2.jpg');
+	background-size: cover;
+}
+.bg3{
+	height: 600px;
+	width: 625px;
+	float: left;
+	background-image: url('bg_img3.jpg');
+	background-size: cover;
+

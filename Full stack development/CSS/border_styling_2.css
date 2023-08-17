@@ -1,0 +1,8 @@
+.Border_2{
+	height: 150px;
+	width: 300px;
+	background-color: snow;
+	box-shadow: 0 0 0  10px red;
+	outline: dashed 10px blue;
+	
+}

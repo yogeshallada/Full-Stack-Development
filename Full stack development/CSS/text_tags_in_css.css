@@ -1,0 +1,18 @@
+h1{
+	text-align: center;
+	color: blueviolet;
+	text-shadow: 2px 2px 2px yellow;
+}
+div{
+	height: 400px;
+	width: 400px;
+	background-color: whitesmoke;
+	border: 3px solid red;
+}
+p{
+	text-align: justify;
+	text-transform: capitalize;
+}
+/*in text shadow first 2px is applied to the horizontal and second 2px is applied to the vertical and the third 2px will applied for the blur effect*/
+/*justify in text-align is used to allign the given texts equally for both the right and left sides*/
+/*capitalize in text-transform is used to set the starting letters of the words capital*/

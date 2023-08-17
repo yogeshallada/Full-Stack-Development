@@ -1,0 +1,73 @@
+/*class selector represented by.*/
+.External{
+	border: 4px solid gray;
+	color: yellowgreen;
+	background-color: red;
+	font-size: 40px;
+}
+/*id selector represented by #*/
+#id{
+	border: 4px solid red;
+	color: yellow;
+	background-color: gray;
+	font-size: 40px;
+}
+/*element selector is represented by tag names*/
+h4{
+	font-size: 100px;
+	color: gray;
+	background-color: yellow;
+}
+
+div{
+	background-color: red;
+	height: 250px;
+	width: 250px;
+}
+/*universal selector is represented by * */
+*{
+	font-family: cursive;
+	font-size: 20px;
+}
+/*attribute selector is represented by using tag name and keep the attribute in square brackets*/
+input[type]{
+	color: orange;
+}
+input[type="number"]{
+	color: blue;
+}
+input[type="email"]{
+	color: red;
+}
+input[type="password"]{
+	color: green;
+}
+/*In pseudo selectors we use some types of pseudo classes*/
+/*pseudo selectors are represented by tag name then : then pseudo classes*/
+/*link pseudo class is used to change the default format*/
+a:link{
+	color: red;
+}
+/*hover pseudo class is used to change the format if we move the cursor to that particular text*/
+a:hover{
+   color: seagreen;
+}
+/*active pseudo class is used to change the format of the text if we click on the text*/
+a:active{
+	color: black;
+}
+/*visited pseudo class is used to change the format of the text if we already visited*/
+
+.a{
+	height: 200px;
+	width: 200px;
+	background-color: orangered;
+}
+div:hover{
+	height: 600px;
+	width: 600px;
+	background-color: gray;
+
+}
+
+

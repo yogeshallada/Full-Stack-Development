@@ -1,0 +1,36 @@
+h1{
+	background-color: blueviolet;
+	display: inline;
+}
+span{
+	background-color: yellowgreen;
+	display: block;
+}
+/*display is used to change the default properties of the tags like h1 us block level element it is changed to inline and span is inline element and it is changed to block*/
+.a{
+	height: 400px;
+	width: 200px;
+	border: 3px solid red;
+	float: left;
+}
+.b{
+	height: 400px;
+	width: 200px;
+	border: 3px solid blueviolet;
+	float: left;
+	visibility: hidden;
+/*	visibility hidden is used to hide the tag from the browser but not removed from the webpage and it will not disturbs another tags*/
+/*visibility none ia used to remove the tag from the browser and it will effect the remaining tags*/
+}
+.c{
+	height: 400px;
+	width: 200px;
+	border: 3px solid greenyellow;
+	float: left;
+}
+.d{
+	height: 400px;
+	width: 200px;
+	border: 3px solid orangered;
+	float: left;
+}

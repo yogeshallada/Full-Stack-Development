@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>DOM_Methods_2</title>
+</head>
+<body>
+	<p class="please">HTML</p>
+	<p class="please">CSS</p>
+	<p class="please">BS</p>
+	<p class="please">JS</p>
+
+
+	<ul>
+		<li>AEC</li>
+		<li>ACET</li>
+		<li>ACOE</li>
+	</ul>
+
+
+	<table border="">
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+	</table>
+
+
+	<p class="paragraph">y</p>
+	<p class="paragraph">o</p>
+	<p class="paragraph">g</p>
+	<p class="paragraph">i</p>
+
+
+	<h1>thor</h1>
+	<h1>scarlet witch</h1>
+	<h1>iron man</h1>
+	<h1>thanos</h1>
+	<h1>captain america</h1>
+
+
+	<span class="spa">hi</span>
+	<span class="spa">ji</span>
+	<span class="spa">lk</span>
+	<span class="spa">lkjlk</span>
+
+
+
+	<script type="text/javascript">
+		let scarlet=document.getElementsByClassName('please');
+		scarlet[0].innerHTML='Hyper Text Markup Language';
+		scarlet[0].style.color='blue'
+		scarlet[1].innerHTML='Cascading Style Sheet';
+		scarlet[1].style.color='red'
+		scarlet[2].innerHTML='BootStrap';
+		scarlet[2].style.color='green'
+		scarlet[3].innerHTML='JavaScript';
+		scarlet[3].style.color='violet'
+
+
+		let list=document.getElementsByTagName('li')
+		list[0].innerText='Aditya Engineering College';
+		list[1].innerText='Aditya College of Engineering and Technology';
+		list[2].innerText='Aditya College of Engineering';
+
+
+		var t=document.getElementsByTagName('td');
+		for(var i=0;i<t.length;i++)
+		{
+		t[i].innerText = t.length-i;
+	}
+
+
+		let selecto = document.querySelector('.paragraph');
+		selecto.innerHTML ='Y';
+
+	let head=document.querySelector('h1')
+	head.innerHTML='thor odinson';
+
+	let span=document.querySelectorAll('.spa');
+	for(i=0;i<span.length;i++)
+	{
+		span[i].innerHTML="all"+"<br>";
+	}
+	</script>
+
+</body>
+</html>
